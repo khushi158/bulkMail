@@ -156,7 +156,8 @@ router.post('/getsetting', async (req, res) => {
   const { username } = req.body; // No need for () after req.body
   try {
     // `find` returns a cursor, so you need to use `toArray()` or another method to get the documents
-    const result = await client.db('Email').collection('smtp').find({ username }).toArray();
+    const result = await client.db('Email').collection('smpt').find({ username }).toArray();
+
     
     res.status(200).send(result); // Send the fetched data
   } catch (e) {
