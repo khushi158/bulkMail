@@ -152,22 +152,19 @@ router.post("/save-setting", async (req, res) => {
   }
 });
 
-router.post('/getsetting',async(req,res)=>{
-const{username}=req.body();
-  try{
-      const res=await client.db('Email').collection('smtp').find({username});
-      res.send(res);
-      return;
-  }catch(e){
-
-    res.send(e);
-
+router.post('/getsetting', async (req, res) => {
+  const { username } = req.body; // No need for () after req.body
+  try {
+    // `find` returns a cursor, so you need to use `toArray()` or another method to get the documents
+    const result = await client.db('Email').collection('smtp').find({ username }).toArray();
+    
+    res.status(200).send(result); // Send the fetched data
+  } catch (e) {
+    console.error('Error fetching settings:', e); // Log the error for debugging
+    res.status(500).send({ error: 'An error occurred while fetching the settings.' }); // Return an appropriate error message
   }
+});
 
-
-
-
-})
 
 router.post('/getTrack', async (req, res) => {
   try {
