@@ -159,7 +159,7 @@ router.post('/getsetting', async (req, res) => {
     const result = await client.db('Email').collection('smpt').find({ username }).toArray();
 
     
-    res.status(200).send(result); // Send the fetched data
+    res.status(200).send(result[0]); // Send the fetched data
   } catch (e) {
     console.error('Error fetching settings:', e); // Log the error for debugging
     res.status(500).send({ error: 'An error occurred while fetching the settings.' }); // Return an appropriate error message
