@@ -153,7 +153,7 @@ router.post("/save-setting", async (req, res) => {
 });
 
 router.post('/getsetting',async(req,res)=>{
-
+const{username}=req.body();
   try{
       const res=await client.db('Email').collection('smtp').find({username});
       res.send(res);
