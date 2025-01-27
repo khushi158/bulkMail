@@ -152,6 +152,23 @@ router.post("/save-setting", async (req, res) => {
   }
 });
 
+router.post('/getSetting',async(req,res)=>{
+
+  try{
+      const res=await client.db('Email').collection('smtp').find({username});
+      res.send(res);
+      return;
+  }catch(e){
+
+    res.send(e);
+
+  }
+
+
+
+
+})
+
 router.post('/getTrack', async (req, res) => {
   try {
     // Fetch all data from the 'emailOpen' hash in Redis
