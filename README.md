@@ -108,9 +108,3 @@ Bulk-Email-Sender/
 
 
 <p align="center">Built with ❤️ by the KHUSHNIMA</p>
-
-<p align="center">
-  <a href="https://github.com/khushi158/bulkMail">
-    <img src="https://contrib.rocks/image?repo=khushi158/GyanGrove" alt="Contributors">
-  </a>
-</p>
