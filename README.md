@@ -81,8 +81,6 @@ yarn install
 ```bash
 cp .env.example .env
 Fill in your Gmail SMTP credentials in the .env file:
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
 SMTP_USER=your-email@gmail.com
 SMTP_PASS=your-app-password
 
