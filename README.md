@@ -91,7 +91,7 @@ SMTP_PASS=your-app-password
 <pre><code>node server.js</code></pre>
 <p>Use the CLI or API routes to execute bulk email operations.</p>
 
-## 📁 Project Structure
+4. 📁 Project Structure
 Bulk-Email-Sender/
 
 
