@@ -92,7 +92,7 @@ SMTP_PASS=your-app-password
 <p>Use the CLI or API routes to execute bulk email operations.</p>
 
 ## 📁 Project Structure
-<pre><code>Bulk-Email-Sender/
+Bulk-Email-Sender/
 
 
 ├── dist/
