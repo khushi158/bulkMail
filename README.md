@@ -67,9 +67,8 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/khushi158/GyanGrove.git
-cd GyanGrove
-```
+https://github.com/khushi158/bulkMail
+
 
 2. Install dependencies
 ```bash
@@ -92,7 +91,7 @@ SMTP_PASS=your-app-password
 <pre><code>node server.js</code></pre>
 <p>Use the CLI or API routes to execute bulk email operations.</p>
 
-<h2 id="project-structure">📁 Project Structure</h2>
+## 📁 Project Structure
 <pre><code>Bulk-Email-Sender/
 
 
