@@ -87,6 +87,7 @@ node server.js
 4. 📁 Project Structure
 Bulk-Email-Sender/
 
+
 ├── dist/
 ├── node_modules/
 ├── routes/
