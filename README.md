@@ -4,11 +4,8 @@
   <li><a href="#overview">✨ Overview</a></li>
   <li><a href="#features">🚀 Features</a></li>
   <li><a href="#tech-stack">🛠️ Tech Stack</a></li>
-  <li><a href="#screenshots">📸 Screenshots</a></li>
   <li><a href="#getting-started">🏃‍♂️ Getting Started</a></li>
   <li><a href="#project-structure">📁 Project Structure</a></li>
-  <li><a href="#contributing">🤝 Contributing</a></li>
-  <li><a href="#license">📄 License</a></li>
 </ul>
 
 <h2 id="overview">✨ Overview</h2>
