@@ -75,11 +75,9 @@ yarn install
 ```
 
 3. Set up environment variables
-```bash
-cp .env.example .env
-Fill in your Gmail SMTP credentials in the .env file:
-SMTP_USER=your-email@gmail.com
-SMTP_PASS=your-app-password
+After logging in, go to Settings in the application and set the SMTP details there:
+SMTP User: your-email@gmail.com
+SMTP Password: your-app-password
 
 
 Start the Application
