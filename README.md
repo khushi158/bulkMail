@@ -107,4 +107,3 @@ Bulk-Email-Sender/
 ├── server.js
 
 
-<p align="center">Built with ❤️ by the KHUSHNIMA</p>
