@@ -87,13 +87,12 @@ SMTP_USER=your-email@gmail.com
 SMTP_PASS=your-app-password
 
 
-<h3>Start the Application</h3>
-<pre><code>node server.js</code></pre>
-<p>Use the CLI or API routes to execute bulk email operations.</p>
+Start the Application
+node server.js
+
 
 4. 📁 Project Structure
 Bulk-Email-Sender/
-
 
 ├── dist/
 ├── node_modules/
