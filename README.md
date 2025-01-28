@@ -107,12 +107,10 @@ Bulk-Email-Sender/
 ├── server.js
 
 
-<h2 id="contributing">🤝 Contributing</h2>
-<p>Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.</p>
+<p align="center">Built with ❤️ by the KHUSHNIMA</p>
 
-
-
-<div class="center">
-  <p>Built with ❤️ by KHUSHNIMA</p>
-  <a href="https://github.com/khushi158/bulk-email-sender/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=khushi158/bulk-email
+<p align="center">
+  <a href="https://github.com/khushi158/bulkMail">
+    <img src="https://contrib.rocks/image?repo=khushi158/GyanGrove" alt="Contributors">
+  </a>
+</p>
