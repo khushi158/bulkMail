@@ -75,9 +75,9 @@ yarn install
 ```
 
 3. Set up environment variables
-After logging in, go to Settings in the application and set the SMTP details there:
-SMTP User: your-email@gmail.com
-SMTP Password: your-app-password
+<p>After logging in, go to Settings in the application and set the SMTP details there:</p>
+<p>SMTP User: your-email@gmail.com</p>p
+<p>SMTP Password: your-app-password</p>
 
 
 Start the Application
